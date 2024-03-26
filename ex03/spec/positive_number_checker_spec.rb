@@ -27,9 +27,9 @@ RSpec.describe '#positive_number_checker' do
   end
 
   context 'when the number is zero' do
-    it 'returns "Positivo" for zero' do
+    it 'returns "Neutro" for zero' do
       result = positive_number_checker(0)
-      expect(result).to eq('Positivo')
+      expect(result).to eq('Neutro')
     end
   end
 end
