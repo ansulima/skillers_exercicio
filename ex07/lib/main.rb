@@ -3,7 +3,8 @@ require_relative 'typing'
 
 def main
   number = typing
-  check_number(number)
+  result = check_number(number)
+  puts "#{number} #{result}"
 end
 
 main
